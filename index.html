@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nuove Indicazioni Quick: Liceo Linguistico</title>
+<meta name="description" content="Corredo digitale del quaderno operativo per i docenti di lingue straniere del liceo linguistico.">
+<style>
+  :root {
+    --bg: #f7f5f0;
+    --surface: #ffffff;
+    --text: #1f2328;
+    --muted: #5b6168;
+    --accent: #1d4e89;
+    --accent-ink: #ffffff;
+    --border: #e2ded4;
+    --note-bg: #fff6e0;
+    --note-border: #e8c46a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15181c;
+      --surface: #1e2227;
+      --text: #e8eaed;
+      --muted: #a3a9b0;
+      --accent: #7fb0ec;
+      --accent-ink: #10141a;
+      --border: #30353c;
+      --note-bg: #2b2516;
+      --note-border: #8a6d22;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.55;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 16px 56px; }
+  header { border-bottom: 2px solid var(--accent); padding-bottom: 20px; margin-bottom: 28px; }
+  .kicker {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--accent); margin: 0 0 8px;
+  }
+  h1 { font-size: clamp(1.7rem, 5vw, 2.4rem); line-height: 1.15; margin: 0 0 8px; }
+  .subtitle { font-style: italic; color: var(--muted); margin: 0; font-size: 1.1rem; }
+  h2 {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 1.15rem; margin: 32px 0 12px;
+  }
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: 20px;
+  }
+  .card h3 { margin: 0 0 6px; font-size: 1.15rem; }
+  .meta {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 0.88rem; color: var(--muted); margin: 0 0 14px;
+  }
+  .card ul { margin: 0 0 18px; padding-left: 20px; }
+  .actions { display: flex; flex-wrap: wrap; gap: 10px; }
+  .btn {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    display: inline-block; text-decoration: none; font-weight: 600; font-size: 0.95rem;
+    padding: 10px 16px; border-radius: 8px; border: 1px solid var(--accent);
+  }
+  .btn.primary { background: var(--accent); color: var(--accent-ink); }
+  .btn.secondary { color: var(--accent); background: transparent; }
+  .btn:focus-visible { outline: 3px solid var(--note-border); outline-offset: 2px; }
+  .note {
+    background: var(--note-bg); border-left: 4px solid var(--note-border);
+    padding: 12px 16px; border-radius: 6px; margin: 20px 0 0; font-size: 0.97rem;
+  }
+  .soon { color: var(--muted); }
+  footer {
+    margin-top: 44px; padding-top: 16px; border-top: 1px solid var(--border);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 0.82rem; color: var(--muted);
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="kicker">Corredo digitale</p>
+    <h1>Nuove Indicazioni Quick: Liceo Linguistico</h1>
+    <p class="subtitle">Quaderno operativo per i docenti di lingue straniere</p>
+  </header>
+
+  <main>
+    <h2>Capitolo 1 — Il testo della bozza</h2>
+    <div class="card">
+      <h3>Lingua e cultura straniera al liceo linguistico</h3>
+      <p class="meta">Bozza delle nuove Indicazioni nazionali per i licei · Ministero dell'Istruzione e del Merito · 22 aprile 2026 · PDF, 16 pagine</p>
+      <ul>
+        <li>Lingua e cultura straniera 1 e 2</li>
+        <li>Lingua e cultura straniera 3</li>
+      </ul>
+      <div class="actions">
+        <a class="btn primary" href="testi/Liceo_linguistico_Lingue_straniere_bozza_22-04-2026.pdf" download>Scarica il PDF</a>
+        <a class="btn secondary" href="testi/Liceo_linguistico_Lingue_straniere_bozza_22-04-2026.pdf" target="_blank" rel="noopener">Apri nel browser</a>
+        <a class="btn secondary" href="https://www.mim.gov.it/-/pubblicato-il-testo-delle-nuove-indicazioni-nazionali-per-i-licei-" target="_blank" rel="noopener">Pagina ufficiale del MIM</a>
+      </div>
+      <p class="note">Il file riproduce senza modifiche le pagine 10–25 dell'allegato "Liceo linguistico". Si tratta di una <strong>bozza</strong>: le nuove Indicazioni non sono ancora in vigore e l'avvio è previsto dalle classi prime del 2027/28.</p>
+    </div>
+
+    <h2>Altri materiali</h2>
+    <p class="soon">Le schede scaricabili e le app dei capitoli successivi verranno pubblicate qui man mano.</p>
+  </main>
+
+  <footer>
+    Nuove Indicazioni Quick: Liceo Linguistico · Beatrice Vallini<br>
+    Il testo ministeriale è un documento ufficiale del Ministero dell'Istruzione e del Merito, riprodotto senza modifiche.
+  </footer>
+</div>
+</body>
+</html>
